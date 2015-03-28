@@ -1,3 +1,11 @@
+**This Boxen module is now deprecated. The advised method for installing applications with Boxen is to now use [homebrew-cask](http://caskroom.io/). Add the following to your manifest to install Backblaze using brewcask:**
+
+```puppet
+package { 'backblaze': provider => 'brewcask' }
+```
+
+---
+
 # Backblaze Puppet Module for Boxen
 
 Installs [Backblaze](http://backblaze.com).
